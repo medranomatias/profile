@@ -1,0 +1,12 @@
+# pdflatex  -synctex=1 -interaction=batchmode -recorder --jobname="informe"  "main.tex"
+*.aux
+*.bcf
+*.fls
+*.log
+*.out
+*.bbl
+*.toc
+*.blg
+*.fdb_latexmk
+*.run.xml
+*.synctex.gz

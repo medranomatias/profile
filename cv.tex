@@ -1,0 +1,162 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Stylish Curriculum Vitae
+% LaTeX Template
+% Version 1.1 (September 10, 2021)
+%
+% This template originates from:
+% https://www.LaTeXTemplates.com
+%
+% Authors:
+% Stefano (https://www.kindoblue.nl)
+% Vel (vel@LaTeXTemplates.com)
+%
+% License:
+% CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/)
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[a4paper, oneside, final]{scrartcl} % Paper options using the scrartcl class
+
+\usepackage{scrlayer-scrpage} % Provides headers and footers configuration
+\usepackage{titlesec} % Allows creating custom \section's
+\usepackage{marvosym} % Allows the use of symbols
+\usepackage{tabularx,colortbl} % Advanced table configurations
+\usepackage{ebgaramond} % Use the EB Garamond font
+\usepackage{microtype} % To enable letterspacing
+
+\titleformat{\section}{\large\scshape\raggedright}{}{0em}{}[\titlerule] % Section formatting
+
+\pagestyle{scrheadings} % Print the headers and footers on all pages
+
+\addtolength{\voffset}{-0.5in} % Adjust the vertical offset - less whitespace at the top of the page
+\addtolength{\textheight}{3cm} % Adjust the text height - less whitespace at the bottom of the page
+
+\newcommand{\gray}{\rowcolor[gray]{.90}} % Custom highlighting for the work experience and education sections
+
+%----------------------------------------------------------------------------------------
+%	FOOTER SECTION
+%----------------------------------------------------------------------------------------
+
+\renewcommand{\headfont}{\normalfont\rmfamily\scshape} % Font settings for footer
+
+\cofoot{
+\fontsize{12.5}{17}\selectfont % Letter spacing and font size
+
+\textls[150]{4723 (1°A) Av. Gral. Belgrano {\large\textperiodcentered} Villa Domínico (B1875) {\large\textperiodcentered}}\\ % Your mailing address
+{\Large\Letter} \textls[150]{medranomatias@gmail.com \ {\Large\Telefon} (+54) 11-33107790} % Your email address and phone number
+}
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+\begin{center} % Center everything in the document
+
+%----------------------------------------------------------------------------------------
+%	HEADER SECTION
+%----------------------------------------------------------------------------------------
+
+{\fontsize{36}{36}\selectfont\scshape\textls[200]{Medrano Matias Exequiel}} % Your name at the top
+
+\vspace{1.5cm} % Extra whitespace after the large name at the top
+
+%----------------------------------------------------------------------------------------
+%	OBJECTIVE
+%----------------------------------------------------------------------------------------
+
+\section{Objective}
+
+A position in the field of computers with special interests in business applications \\ programming, information processing, and management systems.
+
+%----------------------------------------------------------------------------------------
+%	WORK EXPERIENCE
+%----------------------------------------------------------------------------------------
+
+\section{Experiencia Laboral}
+
+\begin{tabularx}{0.97\linewidth}{>{\raggedleft\scshape}p{2cm}X}
+\gray Período   & \textbf{Agosto 2008 --- Febrero 2009}\\
+\gray Empleador & \textbf{EDS (pasantía)} \hfill http://www.eds.com.ar/\\
+\gray Categoría & \textbf{Analista Programadador y Analista en Pruebas}\\
+\gray Lenguajes & \textbf{Visual .NET}\\
+       & Tareas desempeñadas en desarrollo y mantenimiento de aplicaciones en Visual .NET y manejo de base de datos Oracle 9i. Confección de pruebas no automatizadas de intregración y regresión.
+\end{tabularx}
+
+\vspace{12pt}
+
+\begin{tabularx}{0.97\linewidth}{>{\raggedleft\scshape}p{2cm}X}
+\gray Período   & \textbf{Febrero 2009 --- Julio 2009}\\
+\gray Empleador & \textbf{Grupo Calipso (pasantía)} \hfill http://www.calipso.com/\\
+\gray Categoría & \textbf{Analista Programador e Integrador.}\\
+\gray Lenguajes & \textbf{Java (ME SE EE)}\\
+       & Desarrollo e investigacion en Java en sus distintas versiones e integración entre distintos productos entre sí. Explotación de la potencialidad de J2ME e intregración con otras técnología y explotación de otras plataformas. 
+
+Desarrollo en investigación de aplicaciones basadas en J2ME, bajo especificaciones de Midlet 1.0 y 1.1 y CLCD 1.0 y 1.0. Conocimientos en API de Blackberry (RIM), Sonny Ericson y Nokia. Desarrollo e investigación de aplicaciones Web, bajo Tomcat 5.5, Servlet 2.4 y JSP 2.0. Desarrollo mobile con Blackberry App y Sun Java Wireless Toolkit 2.5.2. Integración y distribución de aplicaciones con Microsoft Visual Source Safe.
+\end{tabularx}
+
+\vspace{12pt}
+
+\begin{tabularx}{0.97\linewidth}{>{\raggedleft\scshape}p{2cm}X}
+\gray Período   & \textbf{Agosto 2009 --- Noviembre 2009}\\
+\gray Empleador & \textbf{Lagash Systems (pasantía)} \hfill http://www.lagash.com/\\
+\gray Categoría & \textbf{Analista Programadado}\\
+\gray Lenguajes & \textbf{.NET}\\
+       & Desarrollo en plataformas Web con tecnologías ASP.NET, C\#, SQLServer 2008. Mediante tecnologías Full Stack Web se realiza trabajos E-Commerce.
+
+Desarrollo e investigación C\# versión 3.5. Desarrollo e investigación de ASP .NET. Desarrollo e investigación en tecnología MCV 1.0. Conocimientos en Javascript, Jquery y CSS. Conocimientos en herramientas de versionado CVS. Conocimiento en utilización de IDE Visual Studio 2008, C\# y Web Developer. Manejo en administración y gestión en BBDD con Microsoft SQL Server 2008 Database Management System.Control de versionado con Tortoise CVS.
+\end{tabularx}
+
+\vspace{12pt}
+
+\begin{tabularx}{0.97\linewidth}{>{\raggedleft\scshape}p{2cm}X}
+\gray Período   & \textbf{Noviembre 2009 --- Noviembre 2011}\\
+\gray Empleador & \textbf{Accenture} \hfill https://www.accenture.com/ar-es\\
+\gray Categoría & \textbf{Analista Programadador y Analista en Pruebas}\\
+\gray Lenguajes & \textbf{Java (SE EE)}\\
+       & Desarrollo e investigacion en Java Server. Con la utilización de todas las tecnologías disponibles en Sun Microsystem se ha llevado a cabo módulos de cobranzas para Telefónica de España mediante la ejecución de operaciones online y procesos programados.
+
+Tareas desempeñadas en desarrollo con tecnología JDK 1.4.2\_08. Tareas desempeñadas en desarrollo con tecnología Servlet 2.4 y JSP 1.2. Administración y gestión con Web Server Tomcat 5.0 y Sun One Web Services 6.0. Conocimientos en HTML 4.0, CSS y Javascript. Conocimiento en herramienta de desarrollo IDE Eclipse Helios. Administración y gestión de BBDD con SQL Developer 3.0 (para BBDD Oracle 8). Gestión de tareas en Unix (control remoto con WinSCP y Putty). Control de versionado con Rational Clear Case 6. Administración y gestión de proyectos con Microsoft Sharepoint.
+\end{tabularx}
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION
+%----------------------------------------------------------------------------------------
+
+\section{Education}
+
+\begin{tabularx}{0.97\linewidth}{>{\raggedleft\scshape}p{2cm}X}
+\gray Period & \textbf{January 2011 --- February 2012}\\
+\gray Degree & \textbf{Master of Science in Computer Science}\\
+\gray Rank & \textbf{First Class Honours}\\
+\gray University & \textbf{The University of California} \hfill Los Angeles, USA\\
+%& Extra information about degree
+\end{tabularx}
+
+\vspace{12pt}
+
+\begin{tabularx}{0.97\linewidth}{>{\raggedleft\scshape}p{2cm}X}
+\gray Period & \textbf{August 2008 --- September 2010}\\
+\gray Degree & \textbf{Bachelor of Science in Computer Science}\\
+\gray Rank & \textbf{With Distinction}\\
+\gray University & \textbf{New York University} \hfill New York, USA\\
+%& Extra information about degree
+\end{tabularx}
+
+%----------------------------------------------------------------------------------------
+%	SKILLS
+%----------------------------------------------------------------------------------------
+
+\section{Skills}
+
+\begin{tabular}{ @{} >{\bfseries}l @{\hspace{6ex}} l }
+Computer Languages & Prolog, Haskell, AWK, Erlang, Scheme, ML \\
+Protocols \& APIs & XML, JSON, SOAP, REST \\
+Databases & MySQL, PostgreSQL, Microsoft SQL \\
+Tools & SVN, Vim, Emacs
+\end{tabular}
+
+%----------------------------------------------------------------------------------------
+
+\end{center}
+
+\end{document}
